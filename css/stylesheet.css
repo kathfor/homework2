@@ -1,0 +1,73 @@
+h1{
+	font-size: 64px;
+	text-align: center;
+	margin: 0px;
+}
+
+h2{
+	font-size: 32px;
+	text-shadow: 4px 4px 2px black;
+	margin: 0px;
+}
+
+p{
+	font-size: 16px;
+	padding-top: 15px;
+}
+
+body{
+	font-family: "Lucida Grande"; fallback: sans-serif;
+	color: white;
+	background: black;
+}
+
+/*how to center an image on its own line*/ 
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+
+}
+
+div{
+	min-height: 100px;
+	padding: 30px;
+}
+
+/* how to call specific id within div*/ 
+
+#red{
+	background: red;
+	text-align: right;
+
+}
+
+#blue{
+	background: blue;
+	text-align: left;
+}
+
+#yellow{
+	background: yellow;
+	text-align: right;
+	color: black;
+}
+
+/* how to call id and then header 2 within the id*/ 
+
+#yellow h2{
+	text-shadow: 4px 4px 2px grey;
+
+}
+
+#green{
+	background: green;
+	text-align: left;
+}
+
+footer{
+	padding-bottom: 15px;
+	text-align: center;
+}
